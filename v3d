@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --name "$1" -d --rm -e "TERM=xterm" -p 22 -it debian-tmate
